@@ -22,6 +22,9 @@ Docente: Jaime Farfán
 ### Entregable 03: Tablas de enrutamiento
 - Tabla pública: 192.168.0.0/22 → local, 0.0.0.0/0 → Internet Gateway, S3 → VPC Endpoint
 - Tabla privada: 192.168.0.0/22 → local, S3 → VPC Endpoint (sin salida a Internet)
+### Entregable 04: Puerta de enlace de Internet
+- LAB10-solanch-igw en estado Attached a LAB10-solanch-vpc
+- Permite la salida a Internet de la subred pública
 
 ## Reto: Implementación de una VPC en AWS
 
