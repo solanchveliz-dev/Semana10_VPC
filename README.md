@@ -25,6 +25,9 @@ Docente: Jaime Farfán
 ### Entregable 04: Puerta de enlace de Internet
 - LAB10-solanch-igw en estado Attached a LAB10-solanch-vpc
 - Permite la salida a Internet de la subred pública
+### Entregable 06: Seguridad
+- ACL de red: permite todo el tráfico de entrada y salida (regla 100) y deniega el resto (regla *). Trabaja a nivel de subred y es sin estado.
+- Grupo de seguridad default: entrada solo desde el mismo grupo, salida a todo. Trabaja a nivel de instancia y es con estado.
 
 ## Reto: Implementación de una VPC en AWS
 
