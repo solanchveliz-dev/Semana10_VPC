@@ -19,6 +19,10 @@ Docente: Jaime Farfán
 - Subred privada: 192.168.2.0/24 → 251 IPs utilizables
 - AWS reserva 5 IPs por subred (.0, .1, .2, .3 y .255)
 
+### Entregable 03: Tablas de enrutamiento
+- Tabla pública: 192.168.0.0/22 → local, 0.0.0.0/0 → Internet Gateway, S3 → VPC Endpoint
+- Tabla privada: 192.168.0.0/22 → local, S3 → VPC Endpoint (sin salida a Internet)
+
 ## Reto: Implementación de una VPC en AWS
 
 ## Conclusiones
