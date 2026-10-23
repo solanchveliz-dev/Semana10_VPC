@@ -28,6 +28,12 @@ Docente: Jaime Farfán
 ### Entregable 06: Seguridad
 - ACL de red: permite todo el tráfico de entrada y salida (regla 100) y deniega el resto (regla *). Trabaja a nivel de subred y es sin estado.
 - Grupo de seguridad default: entrada solo desde el mismo grupo, salida a todo. Trabaja a nivel de instancia y es con estado.
+### Arquitectura
+- VPC: RETO-solanch-vpc (10.10.0.0/16)
+- Zonas de disponibilidad: sa-east-1a y sa-east-1b
+- Subredes públicas: 10.10.1.0/24 (1a) y 10.10.2.0/24 (1b) → salida a Internet por el Internet Gateway
+- Subredes privadas: 10.10.3.0/24 (1a) y 10.10.4.0/24 (1b) → sin ruta a Internet
+- Gateway NAT: no se usó, las subredes privadas quedan aisladas de Internet
 
 ## Reto: Implementación de una VPC en AWS
 
